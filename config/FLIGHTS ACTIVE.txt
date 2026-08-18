@@ -1,0 +1,13 @@
+CREATE TABLE flights_registered (
+    flight_id INT AUTO_INCREMENT PRIMARY KEY,   -- unique ID
+    flight_number VARCHAR(20) NOT NULL,         -- airline + number (e.g., AI174)
+    airline VARCHAR(50),                        -- airline name
+    origin_icao CHAR(4) NOT NULL,               -- origin ICAO code (e.g., VIDP)
+    destination_icao CHAR(4) NOT NULL,          -- destination ICAO code (e.g., KLAX)
+    departure_time DATETIME,                    -- scheduled departure UTC
+    arrival_time DATETIME,                      -- scheduled arrival UTC
+    status ENUM('Scheduled','Active','Landed','Cancelled','Delayed') DEFAULT 'Scheduled',
+    aircraft_type VARCHAR(50),                  -- plane model (e.g., B777-300ER)
+    passengers INT,                             -- estimated/actual passenger count
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);

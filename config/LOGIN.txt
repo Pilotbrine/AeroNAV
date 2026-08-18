@@ -1,0 +1,16 @@
+CREATE TABLE users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password_hash VARCHAR(255) NOT NULL,
+    role ENUM('admin','user') DEFAULT 'user',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+INSERT INTO users (username, password_hash, role) VALUES
+('admin_master', 'admin123', 'admin'),
+('john_doe', 'john123', 'user'),
+('jane_smith', 'jane123', 'user'),
+('flight_admin', 'flight123', 'admin'),
+('alice_w', 'alice123', 'user');
+

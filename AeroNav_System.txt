@@ -1,0 +1,47 @@
+AeroNav_System/
+│
+├── README.md                  ← Overview, setup, usage
+├── LICENSE.txt                ← Optional: MIT/GPL license
+├── .env.example               ← Template for API keys (no real keys!)
+├── requirements.txt           ← Python dependencies
+├── setup_instructions.txt     ← Step-by-step install & run guide
+│
+├── /docs                      ← Documentation & visuals
+│   ├── Project_Report.pdf
+│   ├── Architecture_Diagram.png
+│   ├── Presentation_Slides.pptx
+│   └── db_schema.png
+│
+├── /src                       ← Source code
+│   ├── main.py
+│   ├── route_optimizer.py
+│   ├── weather_api.py
+│   ├── traffic_module.py
+│   ├── database.py
+│   └── utils/
+│       └── helpers.py
+│
+├── /config                    ← Configs & environment
+│   ├── config.json
+│   └── .env.example
+│
+├── /tests                     ← Unit & integration tests
+│   ├── test_routes.py
+│   ├── test_weather.py
+│   └── test_db.py
+│
+├── /data                      ← Sample data & logs
+│   ├── sample_input.json
+│   ├── sample_routes.csv
+│   ├── weather_mock.json
+│   └── output_logs.txt
+│
+├── /assets                    ← Visuals & branding
+│   ├── logo.png
+│   └── screenshots/
+│       └── demo_ui.png
+│
+└── /setup                     ← Database setup scripts
+    ├── db_setup.sql
+    ├── init_db.py
+    └── sample_inserts.sql

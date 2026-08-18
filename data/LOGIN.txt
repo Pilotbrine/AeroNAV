@@ -1,0 +1,9 @@
+
+
+INSERT INTO users (username, password_hash, role) VALUES
+('admin_master', 'admin123', 'admin'),
+('john_doe', 'john123', 'user'),
+('jane_smith', 'jane123', 'user'),
+('flight_admin', 'flight123', 'admin'),
+('alice_w', 'alice123', 'user');
+

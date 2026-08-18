@@ -1,0 +1,30 @@
+AeroNav System — Proprietary Software License  
+Copyright (c) 2025 Stephen Mathew and Vinay Krishna. All rights reserved.
+
+This software and its associated documentation files (the "Software") are the
+exclusive property of the copyright holders named above.
+
+Unauthorized copying, reproduction, modification, distribution, sale, lease,
+or any form of reuse of the Software, in whole or in part, is strictly
+prohibited without the prior written consent of the copyright holders.
+
+You may not:
+  • Use the Software or any part of it without authorization.
+  • Copy, modify, merge, publish, distribute, sublicense, or create derivative
+    works from the Software.
+  • Reverse engineer, decompile, or attempt to extract the source code of the
+    Software.
+
+The Software is provided "AS IS" without warranty of any kind, either express
+or implied, including but not limited to the implied warranties of
+merchantability, fitness for a particular purpose, or non-infringement. In no
+event shall the authors be liable for any claim, damages, or other liability,
+whether in an action of contract, tort, or otherwise, arising from, out of,
+or in connection with the Software or the use or other dealings in the Software.
+
+All rights not expressly granted herein are reserved by the copyright holders.
+
+Contact:
+  Stephen Mathew and Vinay Krishna
+  Email: [flightpathoptimiser@gmail.com]
+

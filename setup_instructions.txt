@@ -1,0 +1,66 @@
+AeroNav System — Setup Instructions
+================================
+
+1. Install Python
+-----------------
+- Install Python 3.10 or above from https://www.python.org/downloads/
+- Make sure Python and pip are added to your system PATH.
+
+2. Install Project Dependencies
+-------------------------------
+- Open a terminal / command prompt in the project folder.
+- Run:
+    pip install -r requirements.txt
+
+This will install:
+- mysql-connector-python
+- bcrypt
+- requests
+- matplotlib
+- cartopy
+
+3. Install MySQL Server
+-----------------------
+- Install MySQL Server and MySQL Workbench from: https://dev.mysql.com/downloads/installer/
+- Start the MySQL server service on your system.
+
+4. Create the Project Database
+-------------------------------
+- Open MySQL Command Line or Workbench and run:
+    CREATE DATABASE aeronav;
+
+5. Import Setup SQL Scripts
+-----------------------------
+- From the project `/setup` folder, run the following:
+
+    mysql -u <username> -p aeronav < db_setup.sql
+    python setup/init_db.py
+    mysql -u <username> -p aeronav < sample_inserts.sql
+
+(Replace `<username>` with your MySQL username)
+
+6. Configure Database Credentials
+---------------------------------
+- Open `config/config.json` file.
+- Add your MySQL username, password, host, and database name.
+
+7. Running the Project
+-----------------------
+- To start the system, run:
+    python src/main.py
+
+8. Testing the Project
+-----------------------
+- To run automated tests:
+    pytest tests/
+
+This will run all route, weather, and database tests.
+
+================================
+End of Setup Instructions
+
+
+
+COPYRIGHT NOTICE
+
+© 2025 AeroNAV System. All rights reserved. This material is the intellectual property of the AeroNAV System development team. Reproduction, distribution, or modification without prior written consent is strictly prohibited.

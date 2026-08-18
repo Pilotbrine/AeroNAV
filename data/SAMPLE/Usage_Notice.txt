@@ -1,0 +1,28 @@
+# ================================================================= NOTICE: SAMPLE FILES USAGE RESTRICTION
+
+This document and associated sample files are provided solely for understanding and educational purposes related to the AeroNAV System. These files are not intended for official use, deployment in live environments, or any production-related activities.
+
+---
+
+## IMPORTANT: RESTRICTION ON USE
+
+- Sample files must not be utilized in any official, commercial, or operational capacity.
+- Unauthorized use of these files for official purposes may result in unintended consequences, including system instability or data inaccuracies.
+- For official use, please contact the AeroNAV System development team to obtain certified and validated files.
+
+---
+
+## COPYRIGHT NOTICE
+
+© 2025 AeroNAV System. All rights reserved. This material is the intellectual property of the AeroNAV System development team. Reproduction, distribution, or modification without prior written consent is strictly prohibited.
+
+---
+
+## CONTACT INFORMATION
+
+For inquiries or to request official files, please reach out to:
+
+- Email: flightpathoptimiser@gmail.com
+- Date: September 17, 2025, 06:30 PM IST
+
+=================================================================

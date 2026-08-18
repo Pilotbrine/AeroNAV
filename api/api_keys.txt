@@ -1,0 +1,12 @@
+OPEN WEATHER API KEY 1  - db708f843c1310d2a6fab3b445758485
+OPEN WEATHER API KEY 2  - 2d4d3cbe88a395024055a1854a60d86a
+url - "https://api.openweathermap.org/data/2.5/weather"
+
+
+
+
+
+AERO DATA BOX API KEY 1  - cc6c5307bfmshc5fcc44eee96f40p1356d4jsn4591ecfadea2
+AERO DATA BOX API KEY 2  - 72a3a65136msh17718c723954c6ap11920bjsn3c19facb9fb1
+url -  'https://aerodatabox.p.rapidapi.com/flights/airports/iata/YYZ?offsetMinutes=-120&durationMinutes=720&withLeg=true&direction=Both&withCancelled=true&withCodeshared=true&withCargo=true&withPrivate=true&withLocation=false'
+

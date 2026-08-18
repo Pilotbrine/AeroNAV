@@ -1,0 +1,3 @@
+flightid,flightnumber,airline,originicao,destinationicao,departuretime,arrivaltime,status,aircrafttype,passengers,lastupdated
+1,AI174,Air India,VIDP,KLAX,2025-09-18 10:00:00,2025-09-18 22:00:00,Active,B777-300ER,250,2025-09-17 18:00:00
+2,UA101,United,KSFO,EGLL,2025-09-18 16:30:00,2025-09-19 09:00:00,Scheduled,B787-9,210,2025-09-17 16:00:00

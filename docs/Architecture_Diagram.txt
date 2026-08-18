@@ -1,0 +1,44 @@
+AeroNav System — Architecture Diagram
+=============================================
+
+This diagram shows the high-level architecture of the AeroNav System.
+
+-------------------------------------------------------------------
+                       [ User Interface ]
+           (Login, Plan Routes, View Reports, Dashboards)
+                               |
+        -------------------------------------------------
+        |                       |                       |
+ [ Auth Module ]         [ User Module ]         [ Admin Module ]
+ (Login/Auth)            (User Actions)          (Manage Users,
+                                                  Approve Routes)
+        \                       |                       /
+         \                      |                      /
+          \                     |                     /
+           \                    |                    /
+                 [ Route Optimiser Engine ]
+ (Uses weather_api, traffic_module, helpers.py)
+
+        |         |                 |
+        |         |                 |
+        |         |                 |
+[ Weather API ]  [ Traffic Module ] [ Helpers Utilities ]
+
+                        |
+                        |
+               [ MySQL Database ]
+        (Stores Users, Routes, Weather Data, Logs)
+
+-------------------------------------------------------------------
+
+📌 Components Description
+---------------------------
+- User Interface: Entry point for users and admins
+- Auth Module: Handles user login and authentication
+- User Module: Handles user actions and route planning
+- Admin Module: Manages users and approves planned routes
+- Route Optimiser Engine: Core logic combining weather, traffic and route data
+- Weather API Module: Gets weather data
+- Traffic Module: Provides current air traffic data
+- MySQL Database: Stores all user, flight, and log data
+- Helpers: Utility functions used across modules
